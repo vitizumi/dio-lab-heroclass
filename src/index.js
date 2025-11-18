@@ -25,7 +25,7 @@ class heroClass{
     }
 
     // meth def de ataque
-    ataque(){
+    atacar(){
         console.log(`o ${this.heroiClasse} atacou usando ${this.heroiAtaque}`);
     }
 }
@@ -42,8 +42,8 @@ let heroiNin = new heroClass("Marcelo", 15, "ninja");
 // console.log(heroiMonk);
 // console.log(heroiNin);
 
-// execucao de meth de cada classe
-heroiMago.ataque();
-heroiWar.ataque();
-heroiMonk.ataque();
-heroiNin.ataque();
+// execucao de meth atacar de cada classe
+heroiMago.atacar();
+heroiWar.atacar();
+heroiMonk.atacar();
+heroiNin.atacar();
